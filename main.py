@@ -437,15 +437,6 @@ class Publisher:
         f_cmp_all = lambda r: all([f_cmp(r, pv[0], pv[1]) for pv in cmp_pv])
 
         return next((r for r in rows_ if f_cmp_all(r)), None)
-def getParmas():
-    filePath=''
-    ws=''
-    wsUri=''
-    layerGroup=''
-    epsg=''
-    gridset=''
-    titleSize=''
-    opacityColor=''
 
 
 if __name__ == '__main__':
